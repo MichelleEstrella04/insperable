@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js"></script>
+    <link rel="stylesheet" href="/css/media-query-style.css">
+    
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="catchy-pic">
+        <nav class="navbar">
+            <div class="nav-content logo">
+                <a href="index.html"><img class="logs"src="./images/logo2.png"></a>
+                <h1></h1>
+                <h1></h1>
+                <h1></h1>
+                <ul class="social-icon">
+                    <li><a href="https://facebook.com/" target="_blank"><img src="./images/socials/facebook.png"></a></li>
+                    <li><a href="https://instagram.com/" target="_blank"><img src="./images/socials/instagram.png"></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><img src="./images/socials/twitter.png"></a></li>
+                    <li><a href="https://youtube.com/" target="_blank"><img src="./images/socials/youtube.png"></a></li>        
+                </ul>
+                <ul class="menu-bar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- CONTACT US CONTENT -->
+    <div class="page-container">
+        <div class="form-container">
+            
+            <h1>Got any Questions?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, maxime. Recusandae quibusdam ut nihil eos?</p>
+            <div class="contact-box">
+                <form name="contactForm" onsubmit="return validateForm()">
+                <h3>Contact Us</h3>
+                <div class="row">
+                    <div class="error" id="fnameError"></div>
+                    <input type="text" name="fname" class="input-field" placeholder="First name">     
+                </div>
+                <div class="row">
+                    <div class="error" id="lastNameError"></div>
+                    <input type="text" name="lastName" class="input-field" placeholder="Last name">
+                </div>
+                <div class="row">
+                    <div class="error" id="emailError"></div>
+                    <input type="text" name="email" class="input-field" placeholder="Email address">
+                </div>
+                <div class="row">
+                    <div class="error" id="messageError"></div>
+                    <textarea type="text" name="message" class="input-field textarea-field" placeholder="Enter your Question"></textarea>
+                </div>
+                <div class="row">
+                    <input type="submit"  class="btn"></button>
+                </div>    
+                </form>
+                
+            </div>
+            
+        </div>
+    </div>
+    <!-- FOOTER -->
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="list-content body">
+                <ul>
+                    <h1 class="highlight">Feature</h1>
+                    <li><a href="about.html">Features</a></li>
+                    <li><a href="about.html">Live Share</a></li>
+                    <li><a href="about.html">Video record</a></li>
+                </ul>
+                <ul>
+                    <h1 class="highlight">Community</h1>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">User gallery</a></li>
+                </ul>
+                <ul>
+                    <h1 class="highlight">Company</h1>
+                    <li><a href="">Address</a></li>
+                    <li><a href="">Email</a></li>
+                    <li><a href="">Phone</a></li>
+                </ul>
+                <ul>
+                    <h1 class="highlight">Resource</h1>
+                    <li><a href="">Private Policy</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>                
+            </div>
+        <hr>
+            <div class="footer-info">
+                <h2>&copy;App, Inc. 2021 We love our classmates!</h2>
+                <ul class="social-icon">
+                    <h2 class="follow-us">Follow Us</h2>
+                    <li><a href="https://facebook.com/" target="_blank"><img src="./images/socials/facebook.png"></a></li>
+                    <li><a href="https://instagram.com/" target="_blank"><img src="./images/socials/instagram.png"></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><img src="./images/socials/twitter.png"></a></li>
+                    <li><a href="https://youtube.com/" target="_blank"><img src="./images/socials/youtube.png"></a></li>        
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

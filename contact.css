@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+  background-color: #efefef;
+  font-size: 16px;
+  /* font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; */
+  font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI"
+  ,Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji",
+  "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/* CONTACT PAGE */
+
+.form-container{
+  margin: 10%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-container h1{
+  font-size: 40px;
+  /* font-family:Georgia, 'Times New Roman', Times, serif; */
+  margin-bottom: 25px;
+}
+
+.form-container p{
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+.contact-box{
+  width: 500px;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+
+}
+
+.contact-box h3{
+  display: flex;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 35px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  /* font-family: arial; */
+  font-weight: 900;
+}
+
+.input-field{
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  font-size: 15px;
+
+}
+
+.textarea-field{
+  height: 100px;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+.btn{
+  border-radius: 10px;
+  color: rgb(253, 246, 246);
+  margin-bottom: 35px;
+  padding: 10px;
+  margin-left: 40px;
+  background-color: rgb(66, 2, 68);
+  font-size: 18px;
+  display: flex;
+  align-items: left;
+  cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 100%;
+    display: flex;
+    align-items: left;
+    padding-left: 50px;
+}
+
+input[type="submit"]:hover {
+    background: rgb(42, 1, 53);
+    color: white;
+    
+}
+/* NAVBAR */
+
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #261030;
+  color: #fff;
+  width: 100%;
+  opacity: 85%;
+  position: fixed;
+  top: 0;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+  padding: 5px;
+  /* float: left; */
+  list-style: none;
+}
+
+.social-icon{
+  list-style: none;
+}
+
+.nav-content img {
+
+  height: 60px;
+  width: 120px;
+}
+
+.logo img{
+  padding-left: 30px;
+}
+
+.social-icon img{
+  background-color: rgb(250, 235, 229);
+  border-radius: 50%;
+  padding: 3px;
+  /* margin: 8px 8px; */
+  width: 22px;
+  height: 22px;
+}
+
+.navbar .nav-content .menu-bar li a{
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 18px;
+}
+/* .cursor:hover{
+  cursor: pointer;
+} */
+/* Header */
+
+
+/* FOOTER */
+/* #footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+} */
+.footer-content{
+  background-color: #261030;
+  color: rgb(168, 166, 166);
+  padding: 20px 0px;
+}
+
+.footer-content .list-content{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around;
+  padding: 30px 0px;
+}
+
+.footer-content .list-content ul li{
+  list-style: none;
+  padding: 3px;
+}
+
+.footer-content .list-content ul li a{
+  text-decoration: none;
+  color: lightgray;
+}
+
+.footer-content .list-content h1{
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+.footer-info ul{
+  display: flex;
+}
+
+.footer-info h2{
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.follow-us {
+  margin: 8px 5px 0px 0px;
+  font-size: 50px;
+}
+
+.footer-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 10px 5%;
+  opacity: 0.80;
+  /* width: 100%; */
+}
+
+.footer-info .social-icon li{
+  margin: 0px 5px;
+}
+
+hr {
+  margin: 0% 5%;
+}
+/* --------------------Media Query----------------------- */
+/* Footer */
+/* @media screen and (max-width: 900px) {
+  .logo img {
+      height: 40px;
+      width: 80px;
+  }
+} */
