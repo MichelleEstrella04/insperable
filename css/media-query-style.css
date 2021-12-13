@@ -1,0 +1,52 @@
+@media screen and (max-width: 900px) {
+/* -------------------------HEADER--------------------------- */
+    .logo img{
+        height: 40px;
+        width: 80px;
+    }
+    .social-icon img{
+        width: 18px;
+        height: 18px;
+        /* margin: 0px px; */
+    }
+    .navbar .nav-content .menu-bar li a{
+        font-size: 15px;
+    }
+/* --------------------------4TH SECTION---------------------- */
+    .profile-pic{
+        width: 100px;
+        height: 100px;
+    }
+/* --------------------------FOOTER---------------------------- */
+    .footer-info h2{
+        font-size: 12px;
+    }
+
+/* ---------------------about------------------ */
+    .lvcc-content{
+        font-size: 15px;
+        padding: 6% 8%;
+    }
+    .section-5{
+        height: 44vh;
+    }
+    .btn-section-2{
+        width: 82%;
+        bottom: 210px;
+    }
+    .btn-section-3{
+        width: 38%;
+        bottom: 325px;
+    }
+/* -------------cntact--------------- */
+    .form-container p{
+        padding-bottom: 25px;
+        font-size: 20px;
+    }
+    .input-field{
+        height: 45px;
+    }
+    .btn-section-3{
+        bottom: 300px;
+    }
+}
