@@ -124,13 +124,13 @@ img{
 /* BUTTON */
 
 .btn-section-2{
-    width: 93%;
+    width: 91%;
     display: flex;
     /* align-content: center; */
     justify-content: space-between;
     position: relative;
     bottom: 470px;
-    padding-left: 59px;
+    padding-left: 60px;
     /* justify-content: space-around; */
 }
 .btn-section-2 button{
@@ -147,7 +147,7 @@ img{
     /* align-content: center; */
     justify-content: space-between;
     position: relative;
-    bottom: 370px;
+    bottom: 270px;
     width: 44%;
     padding-left: 83px;
     opacity: 1;
